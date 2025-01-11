@@ -1,0 +1,208 @@
+:root {
+  --black: black;
+  --pol: rgba(250, 234, 249, 0.5);
+  --border: rgba(255, 0, 247, 0.8);
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+/* active */
+
+.next.active {
+  display: inline-block;
+}
+
+.nextt.active {
+  display: inline-block;
+}
+
+.nexttt.active {
+  display: inline-block;
+}
+
+section .dots.active {
+  display: none;
+}
+
+section .dots1.active {
+  display: none;
+}
+
+section .dots2.active {
+  display: none;
+}
+
+body {
+  background-image: url(../image/pexels3.jpg);
+  background-attachment: fixed;
+  /* background-position: center; */
+  object-position: center 50%;
+  font-family: Arial, sans-serif;
+  height: 100vh;
+}
+
+.body {
+  color: black;
+}
+
+h2 {
+  margin-bottom: 30px;
+}
+
+.card {
+  margin-bottom: 20px;
+}
+
+#navbar {
+  margin-top: 0;
+  background-color: rgba(28, 139, 223, 0.8);
+  border-bottom: solid var(--black) 2px;
+  position: fixed;
+  z-index: 9999;
+}
+
+#navbar a {
+  color: black;
+  margin-left: 0.7rem;
+}
+
+#navbar a:hover {
+  background-color: var(--pol);
+  padding: 0.5rem;
+}
+
+.hai {
+  margin-top: 8rem;
+  text-align: center;
+}
+
+.container-image {
+  display: grid;
+}
+
+.skill {
+  background-color: var(--pol);
+  border-radius: 50px;
+  height: 24rem;
+  width: 40rem;
+  margin-left: 5rem;
+  margin-top: 30rem;
+  position: relative;
+  text-align: center;
+  color: black;
+}
+
+.skill img {
+  width: 8rem;
+  height: 8rem;
+  margin: 2rem;
+  border-radius: 5px;
+}
+
+.imageME {
+  border-radius: 50rem 50rem 50rem 0;
+  position: absolute;
+  text-align: center;
+  background-color: var(--pol);
+  height: 50rem;
+  width: 25rem;
+  margin-top: 5rem;
+  margin-left: 50rem;
+  position: absolute;
+}
+
+.imageME img {
+  margin-top: 2.5rem;
+  text-align: center;
+  object-fit: cover;
+  object-position: center 30%;
+  background-color: black;
+  width: 20rem;
+  height: 20rem;
+  border-radius: 50%;
+}
+
+#about {
+  margin-top: 3rem;
+}
+
+section .next {
+  display: none;
+}
+
+section .nextt {
+  display: none;
+}
+
+section .nexttt {
+  display: none;
+}
+
+section .dots {
+  color: var(--black);
+}
+
+section .dots1 {
+  color: var(--black);
+}
+
+section .dots2 {
+  color: var(--black);
+}
+
+.sosmed #sosmed {
+  text-align: center;
+  margin-top: 8rem;
+  padding: 8rem 7% 1.4rem;
+}
+
+.sosmed .logos {
+  margin-top: 3rem;
+  justify-content: center;
+  display: flex;
+}
+
+.sosmed .logos a img {
+  margin: 1rem;
+  width: 10rem;
+  height: 10rem;
+  border-radius: 50%;
+}
+
+#contacts {
+  text-align: center;
+  margin-top: 8rem;
+  padding: 8rem 7% 1.4rem;
+}
+
+#contacts div {
+  display: flex;
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  justify-content: center;
+}
+
+#contacts div .contact {
+  background-color: var(--pol);
+  margin-right: 2rem;
+  border-radius: 50px;
+}
+
+#contacts div .contact img {
+  padding: 1rem;
+  width: 5rem;
+  height: 5rem;
+  border-radius: 50%;
+}
+
+#contacts div .contact p {
+  margin: 1rem;
+  font-size: 2rem;
+  color: var(--black);
+}
+
+footer {
+  margin-top: 8rem;
+}
