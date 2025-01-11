@@ -35,7 +35,7 @@ section .dots2.active {
 }
 
 body {
-  background-image: url(../image/pexels3.jpg);
+  background-image: url(./pexels3.jpg);
   background-attachment: fixed;
   /* background-position: center; */
   object-position: center 50%;
